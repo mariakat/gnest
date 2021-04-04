@@ -16,5 +16,13 @@ Version: 1.0
 }
 
 .elementskit-post-image-card {
-	height:350px;
+	height: fit-content;
+	height: 400px;
+	max-height:400px;
+}
+
+ div > div.elementskit-post-body > div.btn-wraper {
+	position: absolute;
+	bottom: 40px;
+	right: 40px;
 }
