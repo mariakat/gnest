@@ -23,6 +23,32 @@ Version: 1.0
 
  div > div.elementskit-post-body > div.btn-wraper {
 	position: absolute;
-	bottom: 40px;
+	bottom: 0;
 	right: 40px;
+}
+.wrapper {
+	min-height: 1000px;
+}
+.wrapper h1 {
+	margin:50px 0;
+}
+
+.linksidebar{
+	position: sticky!important;
+	top: 45px!important;
+}
+.ekit-wid-con .elementskit-post-image-card .elementskit-post-body {
+    padding: 50px;
+}
+#main #content-wrap {
+padding-bottom: 0!important;
+}
+#menu-footer-menu{
+	list-style: none;
+	text-align: center;
+}
+.search_div {
+	width: 80%!important;
+	display: block;
+	margin: 0 auto;
 }

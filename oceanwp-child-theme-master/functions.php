@@ -24,7 +24,8 @@ function oceanwp_child_enqueue_parent_style() {
 	$theme   = wp_get_theme( 'OceanWP' );
 	$version = $theme->get( 'Version' );
 	// Load the stylesheet
-	
+	wp_enqueue_style( 'bootstrap', 'https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css', array( 'oceanwp-style' ), $version );
+	wp_enqueue_script('bootstrap', 'https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js', $deps, $ver, $in_footer);
 	wp_enqueue_style( 'child-style', get_stylesheet_directory_uri() . '/style.css', array( 'oceanwp-style' ), $version );
 }
 add_action( 'wp_enqueue_scripts', 'oceanwp_child_enqueue_parent_style' );
