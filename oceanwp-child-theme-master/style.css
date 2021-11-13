@@ -17,8 +17,8 @@ Version: 1.0
 
 .elementskit-post-image-card {
 	height: fit-content;
-	height: 400px;
-	max-height:400px;
+	min-height: 400px;
+	max-height:600px;
 }
 
  div > div.elementskit-post-body > div.btn-wraper {
@@ -46,6 +46,20 @@ padding-bottom: 0!important;
 #menu-footer-menu{
 	list-style: none;
 	text-align: center;
+	
+}
+
+#menu-footer-menu  li a { 
+	color: #fff!important;
+}
+#footer_box { 
+	    position: absolute;
+	    width: 100%;
+	    bottom: 0;
+	    
+}
+.icon.icon-loupe {
+	color: #fff!important;
 }
 .search_div {
 	width: 80%!important;
